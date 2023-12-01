@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MP3 Music Library</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+  <header>
+
+    <a href="no.html" class="back-button">Back to Home</a>
+    
+    <h1>Welcome to the MP3 Music Library</h1>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for music...">
+      <button onclick="searchMusic()">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="telugu-container">
+      <h2>Telugu Music</h2>
+      <div class="music">
+        <h3>Song Title (Telugu) 1</h3>
+        <p>Artist: Artist Name (Telugu) 1</p>
+        <audio controls>
+          <source src="telugu_song_1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="music">
+        <h3>Song Title (Telugu) 2</h3>
+        <p>Artist: Artist Name (Telugu) 2</p>
+        <audio controls>
+          <source src="telugu_song_2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <!-- Add more Telugu music divs as needed -->
+    </section>
+
+    <section class="tamil-container">
+      <h2>Tamil Music</h2>
+      <div class="music">
+        <h3>Song Title (Tamil) 1</h3>
+        <p>Artist: Artist Name (Tamil) 1</p>
+        <audio controls>
+          <source src="tamil_song_1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="music">
+        <h3>Song Title (Tamil) 2</h3>
+        <p>Artist: Artist Name (Tamil) 2</p>
+        <audio controls>
+          <source src="tamil_song_2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <!-- Add more Tamil music divs as needed -->
+    </section>
+
+    <section class="hindi-container">
+      <h2>Hindi Music</h2>
+      <div class="music">
+        <h3>Song Title (Hindi) 1</h3>
+        <p>Artist: Artist Name (Hindi) 1</p>
+        <audio controls>
+          <source src="hindi_song_1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="music">
+        <h3>Song Title (Hindi) 2</h3>
+        <p>Artist: Artist Name (Hindi) 2</p>
+        <audio controls>
+          <source src="hindi_song_2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <!-- Add more Hindi music divs as needed -->
+    </section>
+  </main>
+</body>
+</html>
